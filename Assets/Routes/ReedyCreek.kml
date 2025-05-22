@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled project</name>
+	<gx:CascadingStyle kml:id="__managed_style_2A092E52FF382DC3AE5E">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_11DD72AD87382DC3AE5E">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B825101ED382DC3AE5E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_11DD72AD87382DC3AE5E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A092E52FF382DC3AE5E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="05D3F5ACE4382DC3AE54">
+		<name>ReedyCreek</name>
+		<LookAt>
+			<longitude>153.406825204916</longitude>
+			<latitude>-28.10997297866827</latitude>
+			<altitude>32.10727846117483</altitude>
+			<heading>11.11115434897397</heading>
+			<tilt>27.58661995270341</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>201.2946227724751</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B825101ED382DC3AE5E</styleUrl>
+		<LineString>
+			<coordinates>
+				153.407075579112,-28.110126222579,0 153.4070038385582,-28.11004721239025,0 153.4070454055374,-28.10986244452902,0 153.4068990706275,-28.10960244356845,0 153.406526748981,-28.10976477586286,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
