@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3ef57f122164deba0f4502244ca1ae, type: 3}
+  m_Name: LibraryToG23
+  m_EditorClassIdentifier: 
+  Name: 
+  Points:
+  - Location:
+      Latitude: -27.9624707399899
+      Longitude: 153.3799906203279
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: 
+    Instruction: 
+  - Location:
+      Latitude: -27.96251105784196
+      Longitude: 153.3804790034656
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: Stairs
+    Instruction: Head down the stairs
+  - Location:
+      Latitude: -27.96269781628433
+      Longitude: 153.3810281457166
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: Straight
+    Instruction: Just head straight
+  - Location:
+      Latitude: -27.96262324885096
+      Longitude: 153.3823333565616
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: Straight
+    Instruction: Just head straight
+  - Location:
+      Latitude: -27.96301737062059
+      Longitude: 153.3829783155517
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: G23
+    Instruction: G23
+  SceneViewScale: 1
