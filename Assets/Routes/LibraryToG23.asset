@@ -15,8 +15,8 @@ MonoBehaviour:
   Name: 
   Points:
   - Location:
-      Latitude: -27.9624707399899
-      Longitude: 153.3799906203279
+      Latitude: -27.96250723085938
+      Longitude: 153.3800443262772
       Altitude: 0
       AltitudeMode: 0
       Label: 
@@ -24,35 +24,26 @@ MonoBehaviour:
     Name: 
     Instruction: 
   - Location:
-      Latitude: -27.96251105784196
-      Longitude: 153.3804790034656
+      Latitude: -27.96271206287218
+      Longitude: 153.380799311742
       Altitude: 0
       AltitudeMode: 0
       Label: 
     IsStep: 1
     Name: Stairs
-    Instruction: Head down the stairs
+    Instruction: Go down the stairs
   - Location:
-      Latitude: -27.96269781628433
-      Longitude: 153.3810281457166
+      Latitude: -27.96289440953484
+      Longitude: 153.3816883113159
       Altitude: 0
       AltitudeMode: 0
       Label: 
     IsStep: 1
     Name: Straight
-    Instruction: Just head straight
+    Instruction: Head straight
   - Location:
-      Latitude: -27.96262324885096
-      Longitude: 153.3823333565616
-      Altitude: 0
-      AltitudeMode: 0
-      Label: 
-    IsStep: 1
-    Name: Straight
-    Instruction: Just head straight
-  - Location:
-      Latitude: -27.96301737062059
-      Longitude: 153.3829783155517
+      Latitude: -27.96311910859926
+      Longitude: 153.3828181468223
       Altitude: 0
       AltitudeMode: 0
       Label: 
