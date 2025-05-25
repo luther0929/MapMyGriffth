@@ -14505,6 +14505,7 @@ GameObject:
   - component: {fileID: 1010250218}
   - component: {fileID: 1010250217}
   - component: {fileID: 1010250216}
+  - component: {fileID: 1010250219}
   m_Layer: 5
   m_Name: PingButton
   m_TagString: Untagged
@@ -14614,6 +14615,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010250214}
   m_CullTransparentMesh: 1
+--- !u!114 &1010250219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010250214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04386030f4d63d346afbbf93252d329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1023985471
 GameObject:
   m_ObjectHideFlags: 0
@@ -17606,6 +17619,7 @@ GameObject:
   - component: {fileID: 1217331789}
   - component: {fileID: 1217331788}
   - component: {fileID: 1217331787}
+  - component: {fileID: 1217331790}
   m_Layer: 5
   m_Name: PingButton
   m_TagString: Untagged
@@ -17715,6 +17729,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217331785}
   m_CullTransparentMesh: 1
+--- !u!114 &1217331790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217331785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04386030f4d63d346afbbf93252d329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1225010339
 GameObject:
   m_ObjectHideFlags: 0
@@ -18674,7 +18700,7 @@ MonoBehaviour:
     RouteSettings:
       RouteType: 1
       From:
-        Type: 1
+        Type: 0
         Location:
           Latitude: -28.11018114821008
           Longitude: 153.40704006625236
@@ -20723,6 +20749,7 @@ GameObject:
   - component: {fileID: 1425395211}
   - component: {fileID: 1425395210}
   - component: {fileID: 1425395209}
+  - component: {fileID: 1425395212}
   m_Layer: 5
   m_Name: PingButton
   m_TagString: Untagged
@@ -20832,6 +20859,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425395207}
   m_CullTransparentMesh: 1
+--- !u!114 &1425395212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425395207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04386030f4d63d346afbbf93252d329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1438734883
 GameObject:
   m_ObjectHideFlags: 0
@@ -26616,6 +26655,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915021532}
   m_CullTransparentMesh: 1
+--- !u!1 &1916258856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916258858}
+  - component: {fileID: 1916258857}
+  m_Layer: 0
+  m_Name: PingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1916258857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916258856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0d37c8380cf7a41913998528b2e5b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  friendsScreen: {fileID: 391953972}
+  arModeScreen: {fileID: 1771453180}
+--- !u!4 &1916258858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916258856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 996.1266, y: 1279.5383, z: 46.232517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1921884550
 GameObject:
   m_ObjectHideFlags: 0
@@ -30068,3 +30153,4 @@ SceneRoots:
   - {fileID: 1946128787}
   - {fileID: 166020855}
   - {fileID: 189792039}
+  - {fileID: 1916258858}
